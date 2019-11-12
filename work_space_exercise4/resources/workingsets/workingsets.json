@@ -10,9 +10,8 @@
 "name":"content",
 "paths":[
 "/exercise4/.project",
-"/exercise4/forms/customersTable.frm",
-"/exercise4/forms/orderDetails.frm",
-"/exercise4/forms/ordersTable.frm"
+"/exercise4/forms/customerDetails.frm",
+"/exercise4/forms/customersTable.frm"
 ]
 }
 ]
