@@ -10,6 +10,9 @@
 "name":"content",
 "paths":[
 "/exercise3/.project",
+"/exercise3/forms/copyCustomersTable.frm",
+"/exercise3/forms/copyOrderDetailsTable.frm",
+"/exercise3/forms/copyOrdersTable.frm",
 "/exercise3/forms/customersTable.frm",
 "/exercise3/forms/orderDetailsTable.frm",
 "/exercise3/forms/ordersTable.frm"
