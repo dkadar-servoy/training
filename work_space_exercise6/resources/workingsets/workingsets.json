@@ -3,7 +3,7 @@
 "name":"base",
 "paths":[
 "/exercise4/.project",
-"/exercise4/forms/baseTableManipulation.frm",
+"/exercise4/forms/baseDetailScreen.frm",
 "/exercise4/forms/baseTableRelation.frm"
 ]
 },
@@ -12,10 +12,11 @@
 "paths":[
 "/exercise4/.project",
 "/exercise4/forms/customerDetails.frm",
+"/exercise4/forms/customersAddScreen.frm",
 "/exercise4/forms/customersTable.frm",
-"/exercise4/forms/orderDetails.frm",
-"/exercise4/forms/ordersTable.frm",
-"/exercise4/forms/tableManipulation.frm"
+"/exercise4/forms/orderDetailsTable.frm",
+"/exercise4/forms/ordersDetailScreen.frm",
+"/exercise4/forms/ordersTable.frm"
 ]
 }
 ]
