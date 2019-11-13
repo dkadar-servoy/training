@@ -13,7 +13,9 @@ function onClickGoToAddDetails(event) {
 	
 	if(currentTable == 'ordersTable'){
 		application.showForm(forms.ordersDetailScreen);
+		foundset.newRecord();
 	} else if(currentTable == 'customersTable'){
 		application.showForm(forms.customersAddScreen);
+		foundset.newRecord();
 	}
 }

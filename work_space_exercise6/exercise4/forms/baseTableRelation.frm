@@ -7,10 +7,14 @@ cssPosition:"0,0,50%,0,200,100",
 json:{
 columns:[
 {
-svyUUID:"4D69E182-EA3C-4F12-918B-1B73E0DF199A"
+styleClass:"fa fa-pencil",
+svyUUID:"93C45318-26D7-48D5-94C1-D06DA1492CCC",
+width:"100px"
 },
 {
-svyUUID:"93C45318-26D7-48D5-94C1-D06DA1492CCC"
+styleClass:"fa fa-trash",
+svyUUID:"F8CFE9CD-1373-4F3F-930D-8B3883E61657",
+width:"100px"
 }
 ],
 cssPosition:{

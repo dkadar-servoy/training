@@ -67,14 +67,22 @@ extendsID:"112E5F0F-6F3C-482C-8CF1-236D01F1BC5F",
 json:{
 columns:[
 {
+headerText:"Edit",
+svyUUID:"7B3094E1-5D1C-40E0-8B03-CC1C3BEE366E"
+},
+{
+headerText:"Delete",
+svyUUID:"1D80207E-8CEC-4834-8CA2-7177C19B0980"
+},
+{
 dataprovider:"customerid",
 headerText:"Customer ID",
-svyUUID:"58A47CF0-E575-47BB-87C7-0E860CBCDEB9"
+svyUUID:"15D94E03-DF26-4C6E-A74C-955086A7C636"
 },
 {
 dataprovider:"companyname",
 headerText:"Name",
-svyUUID:"71AB99A7-CCE8-4DDD-83FA-3A2B63027A68"
+svyUUID:"E84AD5DF-6E5E-437E-86DD-A234BCE35906"
 }
 ],
 cssPosition:{

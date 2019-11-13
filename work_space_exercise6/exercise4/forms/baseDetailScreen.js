@@ -38,5 +38,3 @@ function onClickGoToNextCustomer(event) {
 function onClickGoBack(event) {
 	application.showForm(forms.customersTable);
 }
-
-

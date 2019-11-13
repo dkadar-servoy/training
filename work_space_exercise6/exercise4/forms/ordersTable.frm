@@ -34,9 +34,18 @@ extendsID:"112E5F0F-6F3C-482C-8CF1-236D01F1BC5F",
 json:{
 columns:[
 {
+dataprovider:null,
+headerText:"Edit",
+svyUUID:"BC9D2667-D063-48B0-8C93-B930A58365FB"
+},
+{
+headerText:"Delete",
+svyUUID:"48FB3A1B-9259-48C0-A5D2-D84B81121FF6"
+},
+{
 dataprovider:"orderid",
 headerText:"Order ID",
-svyUUID:"BC9D2667-D063-48B0-8C93-B930A58365FB"
+svyUUID:"9F6B9431-F0D9-4642-83D1-29ACE3E79693"
 }
 ],
 tabSeq:1
