@@ -1,6 +1,7 @@
 columns:[
 {
 allowNull:false,
+autoEnterType:2,
 creationOrderIndex:0,
 dataType:1,
 flags:1,
