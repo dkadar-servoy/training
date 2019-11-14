@@ -14,12 +14,12 @@ function onClickGoToAddDetails(event) {
 	if(currentTable == 'ordersTable'){
 		foundset.newRecord();
 	} else if(currentTable == 'customersTable'){
-		foundset.newRecord();
 		application.showForm(forms.customersAddScreen);
+		foundset.newRecord();
 	} else if(currentTable == 'orderDetailsTable'){
 		forms.ordersDetailScreen.setFoundset(foundset);
-		foundset.newRecord();
 		application.showForm(forms.ordersDetailScreen);
+		foundset.newRecord();
 	}
 }
 
