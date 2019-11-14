@@ -39,6 +39,7 @@ right:"1%",
 top:"2%",
 width:"200"
 },
+dataProviderID:"customerid",
 onDataChangeMethodID:"385B6680-2874-43BC-B109-36385A0E80A1",
 placeholderText:"Search",
 valuelistID:"05F6923C-35BD-41BA-99C6-41AFC2DAA774"

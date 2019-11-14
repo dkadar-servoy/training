@@ -28,7 +28,7 @@ enabled:true,
 extendsID:"4CA3F6C9-0505-4A9F-ABBA-F3C56DF729A9",
 typeid:7,
 uuid:"4A3ACF96-EAC5-437D-A264-CA7104BFAB36",
-visible:false
+visible:true
 },
 {
 cssPosition:"0,0,0,0,200,100",

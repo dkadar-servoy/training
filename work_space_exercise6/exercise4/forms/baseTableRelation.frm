@@ -9,12 +9,12 @@ columns:[
 {
 styleClass:"fa fa-pencil",
 svyUUID:"93C45318-26D7-48D5-94C1-D06DA1492CCC",
-width:"100px"
+width:"110px"
 },
 {
 styleClass:"fa fa-trash",
 svyUUID:"F8CFE9CD-1373-4F3F-930D-8B3883E61657",
-width:"100px"
+width:"110px"
 }
 ],
 cssPosition:{
@@ -24,7 +24,8 @@ left:"0",
 right:"0",
 top:"0",
 width:"200"
-}
+},
+onCellClick:"C45ADCF3-D720-4621-B495-28F05F4475E7"
 },
 name:"table_1",
 typeName:"servoyextra-table",
