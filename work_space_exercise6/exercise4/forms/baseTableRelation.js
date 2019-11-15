@@ -16,9 +16,9 @@ function onClickGoToAddDetails(event) {
 		application.showForm(forms.customerAddDetails);
 		foundset.newRecord();
 	} else if(currentTable == 'orderDetailsTable'){
+		foundset.newRecord();
 		forms.orderDetailsScreen.setFoundset(foundset);
 		application.showForm(forms.orderDetailsScreen);
-		foundset.newRecord();
 	}
 }
 
@@ -31,7 +31,7 @@ function editRecord(){
 	if(currentTable == 'customersTable'){
 		application.showForm(forms.customerAddDetails);
 	} else if(currentTable == 'orderDetailsTable'){
-		forms.ordersDetailScreen.setFoundset(foundset);
+		forms.orderDetailsScreen.setFoundset(foundset);
 		application.showForm(forms.orderDetailsScreen);
 	}
 }

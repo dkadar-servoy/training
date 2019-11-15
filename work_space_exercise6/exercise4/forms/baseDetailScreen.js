@@ -38,13 +38,3 @@ function onClickGoToNextCustomer(event) {
 function onClickGoBack(event) {
 	application.showForm(forms.customersTable);
 }
-
-/**
- * TODO generated, please specify type and doc for the params
- * @param {JSFoundset} fs
- *
- * @properties={typeid:24,uuid:"BD7F6E49-9DD6-4D4D-9F7D-BAF9C4F9E638"}
- */
-function setFoundset(fs){
-	foundset.loadRecords(fs);
-}
