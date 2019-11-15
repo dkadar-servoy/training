@@ -1,4 +1,3 @@
-
 /**
  * Perform the element onclick action.
  *
@@ -14,11 +13,11 @@ function onClickGoToAddDetails(event) {
 	if(currentTable == 'ordersTable'){
 		foundset.newRecord();
 	} else if(currentTable == 'customersTable'){
-		application.showForm(forms.customersAddScreen);
+		application.showForm(forms.customerAddDetails);
 		foundset.newRecord();
 	} else if(currentTable == 'orderDetailsTable'){
-		forms.ordersDetailScreen.setFoundset(foundset);
-		application.showForm(forms.ordersDetailScreen);
+		forms.orderDetailsScreen.setFoundset(foundset);
+		application.showForm(forms.orderDetailsScreen);
 		foundset.newRecord();
 	}
 }
@@ -30,10 +29,10 @@ function editRecord(){
 	const currentTable = controller.getName();
 	
 	if(currentTable == 'customersTable'){
-		application.showForm(forms.customersAddScreen);
+		application.showForm(forms.customerAddDetails);
 	} else if(currentTable == 'orderDetailsTable'){
 		forms.ordersDetailScreen.setFoundset(foundset);
-		application.showForm(forms.ordersDetailScreen);
+		application.showForm(forms.orderDetailsScreen);
 	}
 }
 

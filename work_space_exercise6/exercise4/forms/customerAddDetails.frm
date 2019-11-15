@@ -222,6 +222,6 @@ typeid:47,
 uuid:"F88E5F4A-5FAA-4124-8870-8060C0E8E85E"
 }
 ],
-name:"customersAddScreen",
+name:"customerAddDetails",
 typeid:3,
 uuid:"5C648F1C-ABA3-4B08-B8E0-EAAAAD6CF040"

@@ -39,8 +39,8 @@ right:"1%",
 top:"2%",
 width:"200"
 },
-dataProviderID:"customerid",
-onDataChangeMethodID:null,
+dataProviderID:"selectedCompany",
+onDataChangeMethodID:"8DE29C72-F857-4953-8D82-960A8BA2C15B",
 valuelistID:"05F6923C-35BD-41BA-99C6-41AFC2DAA774"
 },
 name:"typeahead_2",

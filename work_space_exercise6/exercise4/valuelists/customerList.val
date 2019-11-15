@@ -1,4 +1,3 @@
-addEmptyValue:1,
 customProperties:"lazyLoading:false",
 dataProviderID1:"companyname",
 dataProviderID2:"customerid",

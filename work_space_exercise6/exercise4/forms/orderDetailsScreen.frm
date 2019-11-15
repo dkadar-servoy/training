@@ -1,6 +1,6 @@
 customProperties:"formComponent:false,\
 useCssPosition:true",
-dataSource:"db:/example_data/orders",
+dataSource:"db:/example_data/order_details",
 extendsID:"11B7530D-C86E-4836-B8D6-426A63BA4230",
 items:[
 {
@@ -8,7 +8,7 @@ extendsID:"F493461A-C9D0-40A9-86D5-B0AAD3DA989F",
 json:{
 containedForm:{
 input_field:{
-dataProviderID:"order_to_order_details.productid",
+dataProviderID:"productid",
 visible:true
 },
 label_1:{
@@ -26,7 +26,7 @@ extendsID:"5D266B74-06FD-4317-8B9D-F11E3390F3E2",
 json:{
 containedForm:{
 input_field:{
-dataProviderID:"order_to_order_details.unitprice",
+dataProviderID:"unitprice",
 visible:true
 },
 label_1:{
@@ -44,7 +44,7 @@ extendsID:"6FE7FB9C-C1B6-49AD-AFF7-5A207116C29A",
 json:{
 containedForm:{
 input_field:{
-dataProviderID:"order_to_order_details.quantity",
+dataProviderID:"quantity",
 visible:true
 },
 label_1:{
@@ -62,7 +62,7 @@ extendsID:"5AE4F57A-4304-4B10-8718-38C882504C47",
 json:{
 containedForm:{
 input_field:{
-dataProviderID:"order_to_order_details.discount",
+dataProviderID:"discount",
 visible:true
 },
 label_1:{
@@ -88,6 +88,6 @@ uuid:"F534721D-9275-42C3-AA4A-B726C393D246",
 visible:false
 }
 ],
-name:"ordersDetailScreen",
+name:"orderDetailsScreen",
 typeid:3,
 uuid:"5E9E8E71-EAAB-44DC-AD2A-483263259DE8"

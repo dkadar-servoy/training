@@ -11,11 +11,11 @@
 "name":"content",
 "paths":[
 "/exercise4/.project",
+"/exercise4/forms/customerAddDetails.frm",
 "/exercise4/forms/customerDetails.frm",
-"/exercise4/forms/customersAddScreen.frm",
 "/exercise4/forms/customersTable.frm",
+"/exercise4/forms/orderDetailsScreen.frm",
 "/exercise4/forms/orderDetailsTable.frm",
-"/exercise4/forms/ordersDetailScreen.frm",
 "/exercise4/forms/ordersTable.frm"
 ]
 }

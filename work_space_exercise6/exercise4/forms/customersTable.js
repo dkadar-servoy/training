@@ -1,4 +1,11 @@
 /**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"A63B3DEF-4185-471F-A811-D678FBB1CB1F"}
+ */
+var selectedCompany = '';
+
+/**
  * Called when the mouse is double clicked on a row/cell (foundset and column indexes are given).
  *
  * @param {Number} foundsetindex
@@ -15,10 +22,12 @@ function onCellDoubleClickGoToOrders(foundsetindex, columnindex, record, event) 
 }
 
 /**
- * @param {String} customerId
- *
- * @properties={typeid:24,uuid:"16B1F8F0-DC0A-4A3C-BF6E-C81C8E8FBE15"}
  * @AllowToRunInFind
+ * 
+ * TODO generated, please specify type and doc for the params
+ * @param customerId
+ *
+ * @properties={typeid:24,uuid:"C3F2732A-8F06-4344-BB49-9DD2C73AD446"}
  */
 function filterFoundset(customerId){
 	if(foundset.find()){
@@ -36,9 +45,14 @@ function filterFoundset(customerId){
  *
  * @private
  *
- * @properties={typeid:24,uuid:"385B6680-2874-43BC-B109-36385A0E80A1"}
+ * @properties={typeid:24,uuid:"8DE29C72-F857-4953-8D82-960A8BA2C15B"}
  */
-function onDataChangeSearch(oldValue, newValue, event) {
-	filterFoundset(newValue);
+function onDataChangeFilterCompanies(oldValue, newValue, event) {
+	selectedCompany = newValue;
+	if(!selectedCompany == ''){
+		filterFoundset(newValue);
+	} else {
+		foundset.loadAllRecords();
+	}
 	return true
 }

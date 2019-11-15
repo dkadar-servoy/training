@@ -4,7 +4,7 @@ dataSource:"db:/example_data/orders",
 extendsID:"F96A0A48-9268-404D-9020-DEC7231AB995",
 items:[
 {
-cssPosition:"50%,0%,40%,0%,80,20",
+cssPosition:"53%,0%,40%,0%,80,20",
 extendsID:"4CA3F6C9-0505-4A9F-ABBA-F3C56DF729A9",
 tabSeq:2,
 typeid:7,
@@ -30,6 +30,7 @@ typeid:47,
 uuid:"E199C13E-98C8-4818-B108-6B7F0B48831E"
 },
 {
+cssPosition:"0,0,47%,0,200,100",
 extendsID:"112E5F0F-6F3C-482C-8CF1-236D01F1BC5F",
 json:{
 columns:[
@@ -48,6 +49,14 @@ headerText:"Order ID",
 svyUUID:"9F6B9431-F0D9-4642-83D1-29ACE3E79693"
 }
 ],
+cssPosition:{
+bottom:"47%",
+height:"100",
+left:"0",
+right:"0",
+top:"0",
+width:"200"
+},
 tabSeq:1
 },
 typeid:47,

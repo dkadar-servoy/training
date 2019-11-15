@@ -23,7 +23,7 @@ uuid:"3B0C784C-6FE1-4C35-B14F-59F597D0DE35",
 visible:false
 },
 {
-cssPosition:"95%,0%,0,0%,80,20",
+cssPosition:"80%,0%,0,0%,80,20",
 enabled:true,
 extendsID:"4CA3F6C9-0505-4A9F-ABBA-F3C56DF729A9",
 typeid:7,
@@ -31,7 +31,7 @@ uuid:"4A3ACF96-EAC5-437D-A264-CA7104BFAB36",
 visible:true
 },
 {
-cssPosition:"0,0,0,0,200,100",
+cssPosition:"0,0,20%,0,200,100",
 extendsID:"112E5F0F-6F3C-482C-8CF1-236D01F1BC5F",
 json:{
 columns:[
@@ -67,7 +67,7 @@ svyUUID:"CD7B7461-0950-4E52-8692-173218B54FF9"
 }
 ],
 cssPosition:{
-bottom:"0",
+bottom:"20%",
 height:"100",
 left:"0",
 right:"0",
