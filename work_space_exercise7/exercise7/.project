@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>svyUtils$NGClient</name>
+	<name>exercise7</name>
 	<comment></comment>
 	<projects>
+		<project>resources</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
