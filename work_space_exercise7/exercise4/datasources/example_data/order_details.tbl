@@ -1,12 +1,3 @@
 dataSource:"db:/example_data/order_details",
-items:[
-{
-dataProviderIDToAggregate:"subvalue",
-name:"totalvalue",
-type:4,
-typeid:40,
-uuid:"C1D03720-C419-4384-B793-6A5D36B7E395"
-}
-],
 typeid:39,
 uuid:"D296157A-9D62-41FF-A62C-D5E176231653"

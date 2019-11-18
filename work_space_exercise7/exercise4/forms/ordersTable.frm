@@ -49,7 +49,7 @@ headerText:"Order ID",
 svyUUID:"9F6B9431-F0D9-4642-83D1-29ACE3E79693"
 },
 {
-dataprovider:"order_to_order_details.totalvalue",
+dataprovider:"totalvalue",
 headerText:"Total Value",
 svyUUID:"D6E87504-F973-4541-A244-978EEFF68DAE"
 }
