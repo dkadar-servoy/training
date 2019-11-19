@@ -3,6 +3,7 @@
 "name":"base",
 "paths":[
 "/exercise4/.project",
+"/exercise4/forms/baseDetail.frm",
 "/exercise4/forms/baseTableRelation.frm"
 ]
 },

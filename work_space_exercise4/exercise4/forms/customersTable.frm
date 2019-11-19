@@ -31,10 +31,12 @@ json:{
 columns:[
 {
 dataprovider:"customerid",
+headerText:"ID",
 svyUUID:"58A47CF0-E575-47BB-87C7-0E860CBCDEB9"
 },
 {
 dataprovider:"companyname",
+headerText:"Name",
 svyUUID:"71AB99A7-CCE8-4DDD-83FA-3A2B63027A68"
 }
 ],
