@@ -7,8 +7,16 @@ items:[
 extendsID:"F493461A-C9D0-40A9-86D5-B0AAD3DA989F",
 json:{
 containedForm:{
+input:{
+dataProviderID:"productid",
+visible:true
+},
 input_field:{
 dataProviderID:"productid",
+visible:true
+},
+label:{
+text:"Product ID",
 visible:true
 },
 label_1:{
@@ -25,8 +33,16 @@ uuid:"25A9499C-A2D3-4BCB-B8F7-AE1342CCF286"
 extendsID:"5D266B74-06FD-4317-8B9D-F11E3390F3E2",
 json:{
 containedForm:{
+input:{
+dataProviderID:"unitprice",
+visible:true
+},
 input_field:{
 dataProviderID:"unitprice",
+visible:true
+},
+label:{
+text:"Unit Price",
 visible:true
 },
 label_1:{
@@ -43,8 +59,16 @@ uuid:"67DEB5E3-9316-459A-A99F-D0111A60829F"
 extendsID:"6FE7FB9C-C1B6-49AD-AFF7-5A207116C29A",
 json:{
 containedForm:{
+input:{
+dataProviderID:"discount",
+visible:true
+},
 input_field:{
 dataProviderID:"quantity",
+visible:true
+},
+label:{
+text:"Discount",
 visible:true
 },
 label_1:{
@@ -61,8 +85,16 @@ uuid:"B4C2D653-DA49-4C0A-A77D-6A2A3436E1AE"
 extendsID:"5AE4F57A-4304-4B10-8718-38C882504C47",
 json:{
 containedForm:{
+input:{
+dataProviderID:"quantity",
+visible:true
+},
 input_field:{
 dataProviderID:"discount",
+visible:true
+},
+label:{
+text:"Quantity",
 visible:true
 },
 label_1:{

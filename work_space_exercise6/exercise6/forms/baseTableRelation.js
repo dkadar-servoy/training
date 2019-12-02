@@ -13,7 +13,8 @@ function onClickGoToAddDetails(event) {
 	if(currentTable == 'ordersTable'){
 		foundset.newRecord();
 	} else if(currentTable == 'customersTable'){
-		application.showForm(forms.customerAddDetails);
+		forms.customerDetails.setOrigin('add');
+		application.showForm(forms.customerDetails);
 		foundset.newRecord();
 	} else if(currentTable == 'orderDetailsTable'){
 		foundset.newRecord();
@@ -29,7 +30,8 @@ function editRecord(){
 	const currentTable = controller.getName();
 	
 	if(currentTable == 'customersTable'){
-		application.showForm(forms.customerAddDetails);
+		forms.customerDetails.setOrigin('edit');
+		application.showForm(forms.customerDetails);
 	} else if(currentTable == 'orderDetailsTable'){
 		forms.orderDetailsScreen.setFoundset(foundset);
 		application.showForm(forms.orderDetailsScreen);
@@ -51,9 +53,9 @@ function editRecord(){
  * @properties={typeid:24,uuid:"C45ADCF3-D720-4621-B495-28F05F4475E7"}
  */
 function onCellClick(foundsetindex, columnindex, record, event) {
-	if(columnindex == 0){
+	if(elements.table_1.columns[columnindex].styleClass == 'fa fa-pencil'){
 		editRecord();
-	} else if(columnindex == 1){
+	} else if(elements.table_1.columns[columnindex].styleClass == 'fa fa-trash'){
 		foundset.deleteRecord();
 	}
 }

@@ -4,7 +4,7 @@ encapsulation:44,
 items:[
 {
 cssPosition:"0,0,0,40%,-1,-1",
-name:"input_field",
+name:"input",
 typeid:4,
 uuid:"056B5CF9-4C2D-425B-BD5E-4A43312F051E"
 },
@@ -21,7 +21,7 @@ width:"-1"
 },
 text:"Label"
 },
-name:"label_1",
+name:"label",
 typeName:"bootstrapcomponents-label",
 typeid:47,
 uuid:"10CB73FA-5F52-4849-A3C8-9ACC2F033BFF"
