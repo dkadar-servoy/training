@@ -12,6 +12,8 @@ function onClickGoToAddDetails(event) {
 	
 	if(currentTable == 'ordersTable'){
 		foundset.newRecord();
+		forms.orderDetails.setFoundset(foundset);		
+		application.showForm(forms.orderDetails);
 	} else if(currentTable == 'customersTable'){
 		forms.customerDetails.setOrigin('add');
 		application.showForm(forms.customerDetails);
@@ -32,7 +34,11 @@ function editRecord(){
 	if(currentTable == 'customersTable'){
 		forms.customerDetails.setOrigin('edit');
 		application.showForm(forms.customerDetails);
-	} else if(currentTable == 'orderDetailsTable'){
+	} else if(currentTable == 'ordersTable'){
+		forms.orderDetails.setFoundset(foundset);		
+		forms.customerDetails.setOrigin('edit');
+		application.showForm(forms.orderDetails);		
+	}else if(currentTable == 'orderDetailsTable'){
 		forms.orderDetailsScreen.setFoundset(foundset);
 		application.showForm(forms.orderDetailsScreen);
 	}
