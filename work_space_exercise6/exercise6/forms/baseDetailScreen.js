@@ -27,22 +27,6 @@ function onClickGoToNextCustomer(event) {
 }
 
 /**
- * @type {String}
- *
- * @properties={typeid:35,uuid:"D10EFB3B-0513-4186-80A1-DF5434EC02CE"}
- */
-var origin = '';
-
-/**
- * @param {String} data
- *
- * @properties={typeid:24,uuid:"14D34B1E-9FCB-491D-A89E-5714FAFDFD56"}
- */
-function setOrigin(data){
-	origin = data;
-}
-
-/**
  * Perform the element onclick action.
  *
  * @param {JSEvent} event the event that triggered the action

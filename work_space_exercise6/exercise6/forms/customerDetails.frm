@@ -319,6 +319,6 @@ uuid:"F5CC2272-259E-4179-905C-92BFAC92A9F5"
 }
 ],
 name:"customerDetails",
-onLoadMethodID:"DAED6EE9-BFC3-4801-AFA3-F8827B201FF6",
+onLoadMethodID:"-1",
 typeid:3,
 uuid:"5A07F9F5-2EB3-4318-8253-ED2FD071C697"

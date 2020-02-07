@@ -11,11 +11,11 @@ function onClickGoToAddDetails(event) {
 	const currentTable = controller.getName();
 	
 	if(currentTable == 'ordersTable'){
-		foundset.newRecord();
-		forms.orderDetails.setFoundset(foundset);		
-		application.showForm(forms.orderDetails);
+//		Implement orderDetails page first
+//		foundset.newRecord();
+//		forms.orderDetails.setFoundset(foundset);		
+//		application.showForm(forms.orderDetails);
 	} else if(currentTable == 'customersTable'){
-		forms.customerDetails.setOrigin('add');
 		application.showForm(forms.customerDetails);
 		foundset.newRecord();
 	} else if(currentTable == 'orderDetailsTable'){
@@ -32,12 +32,11 @@ function editRecord(){
 	const currentTable = controller.getName();
 	
 	if(currentTable == 'customersTable'){
-		forms.customerDetails.setOrigin('edit');
 		application.showForm(forms.customerDetails);
 	} else if(currentTable == 'ordersTable'){
-		forms.orderDetails.setFoundset(foundset);		
-		forms.customerDetails.setOrigin('edit');
-		application.showForm(forms.orderDetails);		
+//		Implement orderDetails page first		
+//		forms.orderDetails.setFoundset(foundset);		
+//		application.showForm(forms.orderDetails);		
 	}else if(currentTable == 'orderDetailsTable'){
 		forms.orderDetailsScreen.setFoundset(foundset);
 		application.showForm(forms.orderDetailsScreen);
